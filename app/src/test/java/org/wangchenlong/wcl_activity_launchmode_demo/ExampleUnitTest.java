@@ -1,4 +1,4 @@
-package me.chunyu.spike.wcl_activity_launchmode_demo;
+package org.wangchenlong.wcl_activity_launchmode_demo;
 
 import org.junit.Test;
 

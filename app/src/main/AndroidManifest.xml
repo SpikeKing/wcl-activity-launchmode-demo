@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="me.chunyu.spike.wcl_activity_launchmode_demo"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.wangchenlong.wcl_activity_launchmode_demo">
 
     <application
         android:allowBackup="true"
@@ -18,12 +18,12 @@
         </activity>
 
         <activity
-            android:name=".TestAActivity"
-            />
+            android:name=".TestAActivity"/>
 
-        <activity android:name=".TestBActivity"
-                  android:taskAffinity="me.chunyu.clwang.stack"
-                  android:launchMode="singleTask"/>
+        <activity
+            android:name=".TestBActivity"
+            android:launchMode="singleTask"
+            android:taskAffinity="org.wangchenlong.stack"/>
 
         <activity
             android:name=".TestCActivity"/>
