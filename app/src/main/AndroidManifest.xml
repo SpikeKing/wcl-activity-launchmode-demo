@@ -20,10 +20,22 @@
         <activity
             android:name=".TestAActivity"/>
 
+        <!--SingleInstance的启动模式-->
         <activity
             android:name=".TestBActivity"
-            android:launchMode="singleTask"
+            android:launchMode="singleInstance"
             android:taskAffinity="org.wangchenlong.stack"/>
+
+        <!--SingleTask的启动模式-->
+        <!--<activity-->
+        <!--android:name=".TestBActivity"-->
+        <!--android:launchMode="singleTask"-->
+        <!--android:taskAffinity="org.wangchenlong.stack"/>-->
+
+        <!--SingleTop的启动模式-->
+        <!--<activity-->
+        <!--android:name=".TestBActivity"-->
+        <!--android:launchMode="singleTop"/>-->
 
         <activity
             android:name=".TestCActivity"/>
